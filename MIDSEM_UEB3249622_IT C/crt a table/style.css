@@ -1,0 +1,29 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 2px solid #000; /* Add explicit table border */
+    margin: 20px 0; /* Add spacing */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold; /* Make headers more visible */
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle; /* Align image with text */
+    margin-right: 10px;
+}
+
+/* Add hover effect for better visibility */
+tr:hover {
+    background-color: #f8f8f8;
+}
